@@ -510,7 +510,7 @@ TextureImporter:
       213: 5955015506591060111
     second: Scenes_168
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -527,10 +527,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -569,6 +571,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -580,6 +584,7 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -592,6 +597,7 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -604,6 +610,7 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -616,6 +623,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4180,9 +4201,178 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Scenes_0: -2752062872780472777
+      Scenes_1: -7627049883043439442
+      Scenes_10: -8116132679452638409
+      Scenes_100: -2360546821710876777
+      Scenes_101: -5847163207953762529
+      Scenes_102: 8468892283248334573
+      Scenes_103: -2927936661945055101
+      Scenes_104: -4216137516215582516
+      Scenes_105: -258855785226669564
+      Scenes_106: 2618652158819605151
+      Scenes_107: -4084265046905194810
+      Scenes_108: 124657168133401739
+      Scenes_109: 6693283499957084888
+      Scenes_11: -1827337385374912865
+      Scenes_110: -1017556900452886813
+      Scenes_111: 8524808067224637254
+      Scenes_112: -4135472445479624986
+      Scenes_113: 8626130521380007516
+      Scenes_114: 3041563394705760529
+      Scenes_115: 2287277219817940443
+      Scenes_116: 7716332122988621052
+      Scenes_117: -4824894721414853747
+      Scenes_118: -4715543345858948935
+      Scenes_119: 8012424262322769366
+      Scenes_12: 3083683641787308890
+      Scenes_120: 7731842936726215474
+      Scenes_121: 5336322607354114571
+      Scenes_122: -422262391633524279
+      Scenes_123: -5330560118074482484
+      Scenes_124: 4670637457094946631
+      Scenes_125: 6827027561363018070
+      Scenes_126: 2976118061345750060
+      Scenes_127: 2892075606845313485
+      Scenes_128: -3819279619300936931
+      Scenes_129: -6552864949890099402
+      Scenes_13: -6498528537659738106
+      Scenes_130: 2488281305448075248
+      Scenes_131: 8739337676230689999
+      Scenes_132: 357753863302687567
+      Scenes_133: -6360340678215895230
+      Scenes_134: 3040288499524692762
+      Scenes_135: 3220158152762642237
+      Scenes_136: 605895423244998428
+      Scenes_137: 881604098520081314
+      Scenes_138: 7075357644684218459
+      Scenes_139: 3829384087391769397
+      Scenes_14: 6008651870266721572
+      Scenes_140: -127853862967494982
+      Scenes_141: -5883715360330621259
+      Scenes_142: 3622988752604740373
+      Scenes_143: 5932515244180960961
+      Scenes_144: 3160596665411616367
+      Scenes_145: -5319372813902005261
+      Scenes_146: -55381482957275126
+      Scenes_147: -8751585729883570951
+      Scenes_148: -2025735503413650396
+      Scenes_149: -2480457163284815293
+      Scenes_15: 7167195617024742324
+      Scenes_150: -3067740729362620932
+      Scenes_151: 2996140315490721941
+      Scenes_152: -7847580731111245065
+      Scenes_153: -6124498962497585974
+      Scenes_154: 2505106148432260279
+      Scenes_155: 5576507866367128664
+      Scenes_156: -8050816946761090746
+      Scenes_157: 7116378390175407855
+      Scenes_158: -8120347771252012205
+      Scenes_159: 3868255718769210315
+      Scenes_16: -7833871546736228044
+      Scenes_160: 3109826179941247645
+      Scenes_161: -5207458978050679361
+      Scenes_162: -5021404088082172613
+      Scenes_163: 5116973198683005495
+      Scenes_164: -1613266904820257171
+      Scenes_165: 6103590961551945365
+      Scenes_166: 5682918501188752457
+      Scenes_167: 7050186229276063478
+      Scenes_168: 5955015506591060111
+      Scenes_17: 4089008283531906011
+      Scenes_18: 3088996037118706049
+      Scenes_19: 3903018293245806089
+      Scenes_2: 8530444790066188409
+      Scenes_20: 8646112660394844304
+      Scenes_21: 39019733377150114
+      Scenes_22: -4759963616453061928
+      Scenes_23: -6120098371978782448
+      Scenes_24: -439811637132852412
+      Scenes_25: 113433086116860342
+      Scenes_26: -1918397708416197200
+      Scenes_27: -3173285190024632031
+      Scenes_28: 7004671879139235254
+      Scenes_29: -8643933890942775905
+      Scenes_3: -3386713204276699173
+      Scenes_30: 4445099814888628039
+      Scenes_31: 5421885987519353631
+      Scenes_32: -172954157742597995
+      Scenes_33: -4554037168935086233
+      Scenes_34: 6268886510906313187
+      Scenes_35: -6112537414165691431
+      Scenes_36: -1473698522441850269
+      Scenes_37: 4881764053526986716
+      Scenes_38: -8834656186024575689
+      Scenes_39: 1557895344197466531
+      Scenes_4: -4255126930806271038
+      Scenes_40: 8097795359863743102
+      Scenes_41: 2589737599896790485
+      Scenes_42: 254380524964383718
+      Scenes_43: 7553743639322746842
+      Scenes_44: -2729914768655523600
+      Scenes_45: -4586406595458062418
+      Scenes_46: -3811366988730928890
+      Scenes_47: 8566969498761172453
+      Scenes_48: -7827790063473298010
+      Scenes_49: 5436095793633293550
+      Scenes_5: -4123159765458639104
+      Scenes_50: 5998718406039585921
+      Scenes_51: 8873817638912622269
+      Scenes_52: -5595153736165620308
+      Scenes_53: -6669314091808069093
+      Scenes_54: 5927293791211271778
+      Scenes_55: 5321820011391414974
+      Scenes_56: 2253299358548018745
+      Scenes_57: 6085680437689676554
+      Scenes_58: -9149343691322454008
+      Scenes_59: -349268516838118941
+      Scenes_6: 1775869017100842746
+      Scenes_60: 2762856150499380921
+      Scenes_61: 7672762940630892470
+      Scenes_62: -9222472960434811066
+      Scenes_63: -6461177628125294095
+      Scenes_64: -552114914657841721
+      Scenes_65: 8243629675839030229
+      Scenes_66: -6219640897227751197
+      Scenes_67: 5976133346137082597
+      Scenes_68: 4886675562283445288
+      Scenes_69: -5515290022931249548
+      Scenes_7: -686644088992041127
+      Scenes_70: 1087354336107932971
+      Scenes_71: 2627601933638849050
+      Scenes_72: 4972420587353371290
+      Scenes_73: -8771897602171855824
+      Scenes_74: 6291959299736405318
+      Scenes_75: -8098560952484375100
+      Scenes_76: 4723955339401107176
+      Scenes_77: -2230213308951493599
+      Scenes_78: 7216957514585395854
+      Scenes_79: 8793443493818705283
+      Scenes_8: 2612879303347441311
+      Scenes_80: 4486017921922140775
+      Scenes_81: 3056875444799275938
+      Scenes_82: 5879247142901415243
+      Scenes_83: 8259613139058168471
+      Scenes_84: -1723049472836791960
+      Scenes_85: -4663110663868985413
+      Scenes_86: -1474132495203120496
+      Scenes_87: 8690592533673022529
+      Scenes_88: 6928756459840887240
+      Scenes_89: 3902256387327083472
+      Scenes_9: -3254475710983056093
+      Scenes_90: 6570701843898115666
+      Scenes_91: -2961548103054548947
+      Scenes_92: 8112061632427520408
+      Scenes_93: -6531406147173610873
+      Scenes_94: -5290215295151695000
+      Scenes_95: -1207716308802994702
+      Scenes_96: 4090473613394229688
+      Scenes_97: 3316783908781335364
+      Scenes_98: -6846184839215151090
+      Scenes_99: -6966583775056427446
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
